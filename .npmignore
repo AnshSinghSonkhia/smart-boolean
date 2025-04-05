@@ -1,0 +1,50 @@
+# Don't publish source TypeScript or tests
+src/
+tests/
+__tests__/
+
+# Don't publish config or meta
+tsconfig.json
+vitest.config.ts
+jest.config.js
+.eslintrc*
+.prettierrc*
+.vscode/
+*.log
+
+# Git & docs
+.gitignore
+.github/
+*.md
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build files
+dist/
+build/
+
+# Ignore test coverage
+coverage/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

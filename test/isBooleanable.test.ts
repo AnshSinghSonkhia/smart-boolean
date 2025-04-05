@@ -12,5 +12,6 @@ describe('isBooleanable()', () => {
     expect(isBooleanable(123)).toBe(false);
     expect(isBooleanable('maybe')).toBe(false);
     expect(isBooleanable({})).toBe(false);
+    expect(isBooleanable('34256rtfg')).toBe(false);
   });
 });

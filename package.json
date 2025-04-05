@@ -1,0 +1,31 @@
+{
+  "name": "smart-boolean",
+  "version": "1.0.0",
+  "description": "Convert various values to booleans and check if they are boolean-like.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnshSinghSonkhia/smart-boolean.git"
+  },
+  "keywords": [
+    "boolean",
+    "parser",
+    "utils",
+    "boolean-utils"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
