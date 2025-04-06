@@ -1,6 +1,6 @@
 # Don't publish source TypeScript or tests
 src/
-tests/
+test/
 __tests__/
 
 # Don't publish config or meta

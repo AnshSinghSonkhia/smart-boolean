@@ -2,6 +2,8 @@
 
 Convert various values to booleans and check if they are boolean-like.
 
+[![npm](https://img.shields.io/npm/v/smart-boolean.svg)](https://www.npmjs.com/package/smart-boolean)  [![License](https://img.shields.io/npm/l/smart-boolean.svg)](LICENSE) 
+
 # Installation
 
 Install the package using npm:
